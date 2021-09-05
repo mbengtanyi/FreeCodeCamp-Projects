@@ -1,0 +1,2 @@
+The results from these projects are mediocre at best given that I made the bare-minimum effort on them. My purpose on undertaking this course was to gain familiarity with html and css. My mission basically has been accomplished since I managed to pass all the unit tests, 
+Potentially in the near future, I would have to revisit these projects, and modify with more Javascript... especially the portfolio project
