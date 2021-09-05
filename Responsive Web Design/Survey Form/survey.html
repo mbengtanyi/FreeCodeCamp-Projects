@@ -1,0 +1,110 @@
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bowlby+One+SC|Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="survey">
+  <h1 id="title">Net<span>flix</span></h1>
+  <p id="description">Thank you for signing up at Netflix. Tell us more about your self</p>
+  <form id="survey-form">
+
+    <div class="form-inner">
+    <div class="marg">
+  <label for"name" id="name-label">Name</label><br/>
+    <input type="text" placeholder="enter your name" id="name" required><br/>
+    </div>
+    <div class="marg">
+   <label id="email-label">Email</label><br/>
+ <input type="email" placeholder="enter your Email" id="email" required ><br/>
+    </div>
+    <div class="marg">
+   <label id="number-label">Age</label><br/>
+   <input type="number" min="18" max="65" placeholder="age" id="number" required ><br/>
+    </div>
+    <div class="marg">
+    <label id="dropdown-label">Content type</label><br/>
+    <select id="dropdown">
+  <option value="volvo">Movie</option>
+  <option value="saab">Series</option>
+  
+    </select><br/>
+    </div>
+      <div class="marg">
+  <form-group>
+        <label id="select-label">Movie type</label><br/>
+    <label>
+      </div>
+    <div class="marg-se">
+<input type="checkbox" id="first-check" name="vehicle1" value="Bike">Comedy<br/>
+    </label>
+    <label>
+<input type="checkbox" id="second-check"name="vehicle2" value="Car"> Action<br/>
+      <label>
+<input type="checkbox" id="thi-check" name="vehicle3" value="Boat" checked>Romance<br/>
+      </label>
+      </div>
+    </form-group>
+        
+        
+ <div class="marg">
+  <form-group>
+        <label id="select-radio">How did you hear about us?</label><br/>
+    <label>
+      </div>
+    <div class="marg-se">
+<input type="radio" id="first-label" name="vehicle1" value="Bike">Friend<br/>
+    </label>
+    <label>
+<input type="radio" id="second-label"name="vehicle2" value="Car"> Newsletter<br/>
+      <label>
+<input type="radio" id="thi-label" name="vehicle3" value="Boat" checked>Other<br/>
+      </label>
+      </div>
+    </form-group>
+   
+   
+    <div class="marg">
+  <form-group>
+        <label id="select-radio">Would like like to see ads from us?</label><br/>
+    <label>
+      </div>
+    <div class="marg-se">
+<input type="radio" id="first-label" name="vehicle1" value="Bike">Yes<br/>
+    </label>
+    <label>
+<input type="radio" id="second-label"name="vehicle2" value="Car"> No<br/>
+      <label>
+<input type="radio" id="thi-label" name="vehicle3" value="Boat" checked>Maybe<br/>
+      </label>
+      </div>
+    </form-group>   
+    
+    <div class="marg">
+    <label id="feed-label">Feed back</label><br/>
+        </div>
+        <div class="marg-se">
+    <textarea  class="text-area" placeholder="any comment"> 
+    </textarea><br/>
+    </div>
+    <input type="submit" id="submit">
+  </form>
+    </div>
+</div>
+</body>
+</html>
