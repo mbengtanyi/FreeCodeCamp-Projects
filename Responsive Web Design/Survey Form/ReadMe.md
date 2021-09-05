@@ -1,1 +1,3 @@
-[See](https://codepen.io/mbengtanyi/pen/OJpzLmN)
+[See tribute page project on Codepen.io](https://codepen.io/mbengtanyi/pen/OJpzLmN) to preview output alongside unit tests added by FreeCodeCamp required to pass this project.
+
+
